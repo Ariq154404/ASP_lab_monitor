@@ -1,0 +1,594 @@
+2022-11-15 16:24:32
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+rahman3d 1867560  0.0  0.0   9476  5832 pts/2    Ss   16:21   0:00 bash
+rahman3d 1871655  0.7  0.0   6952  3572 pts/2    S+   16:24   0:00 /bin/bash ./tst.sh
+rahman3d 1872273  0.6  0.0   9476  5840 pts/3    Ss   16:24   0:00 bash
+rahman3d 1872888  0.0  0.0   2236   564 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872907  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872908  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872909  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872910  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872911  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872912  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872913  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1873226  0.0  0.0  10780  3444 pts/2    R+   16:24   0:00 ps -u
+bash(1872273)---fork7(1872888)-+-fork7(1872907)-+-fork7(1872909)---fork7(1872913)
+                               |                `-fork7(1872912)
+                               |-fork7(1872908)---fork7(1872911)
+                               `-fork7(1872910)
+2022-11-15 16:24:40
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+rahman3d 1867560  0.0  0.0   9476  5832 pts/2    Ss   16:21   0:00 bash
+rahman3d 1871655  0.7  0.0   6952  3572 pts/2    S+   16:24   0:00 /bin/bash ./tst.sh
+rahman3d 1872273  0.4  0.0   9476  5840 pts/3    Ss   16:24   0:00 bash
+rahman3d 1872888  0.0  0.0   2236   564 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872907  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872908  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872909  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872910  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872911  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872912  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872913  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1873426  2.0  0.0   9476  5860 pts/8    Ss+  16:24   0:00 bash
+rahman3d 1873844  0.0  0.0  10780  3316 pts/2    R+   16:24   0:00 ps -u
+bash(1872273)---fork7(1872888)-+-fork7(1872907)-+-fork7(1872909)---fork7(1872913)
+                               |                `-fork7(1872912)
+                               |-fork7(1872908)---fork7(1872911)
+                               `-fork7(1872910)
+2022-11-15 16:24:40
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+rahman3d 1867560  0.0  0.0   9476  5832 pts/2    Ss   16:21   0:00 bash
+rahman3d 1871655  0.7  0.0   6952  3572 pts/2    S+   16:24   0:00 /bin/bash ./tst.sh
+rahman3d 1872273  0.4  0.0   9476  5840 pts/3    Ss   16:24   0:00 bash
+rahman3d 1872888  0.0  0.0   2236   564 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872907  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872908  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872909  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872910  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872911  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872912  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872913  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1873426  1.6  0.0   9476  5860 pts/8    Ss+  16:24   0:00 bash
+rahman3d 1873890  0.0  0.0  10780  3364 pts/2    R+   16:24   0:00 ps -u
+fork7(1872888)-+-fork7(1872907)-+-fork7(1872909)---fork7(1872913)
+               |                `-fork7(1872912)
+               |-fork7(1872908)---fork7(1872911)
+               `-fork7(1872910)
+2022-11-15 16:24:50
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+rahman3d 1867560  0.0  0.0   9476  5832 pts/2    Ss   16:21   0:00 bash
+rahman3d 1871655  0.6  0.0   6952  3576 pts/2    S+   16:24   0:00 /bin/bash ./tst.sh
+rahman3d 1872273  0.2  0.0   9476  5840 pts/3    Ss   16:24   0:00 bash
+rahman3d 1872888  0.0  0.0   2236   564 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872907  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872908  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872909  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872910  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872911  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872912  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872913  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1873426  0.5  0.0   9476  5860 pts/8    Ss   16:24   0:00 bash
+rahman3d 1874092  0.0  0.0   2236   564 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874120  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874121  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874122  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874530  0.0  0.0  10780  3340 pts/2    R+   16:24   0:00 ps -u
+bash(1872273)---fork7(1872888)-+-fork7(1872907)-+-fork7(1872909)---fork7(1872913)
+                               |                `-fork7(1872912)
+                               |-fork7(1872908)---fork7(1872911)
+                               `-fork7(1872910)
+2022-11-15 16:24:50
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+rahman3d 1867560  0.0  0.0   9476  5832 pts/2    Ss   16:21   0:00 bash
+rahman3d 1871655  0.7  0.0   6952  3576 pts/2    S+   16:24   0:00 /bin/bash ./tst.sh
+rahman3d 1872273  0.2  0.0   9476  5840 pts/3    Ss   16:24   0:00 bash
+rahman3d 1872888  0.0  0.0   2236   564 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872907  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872908  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872909  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872910  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872911  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872912  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872913  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1873426  0.5  0.0   9476  5860 pts/8    Ss   16:24   0:00 bash
+rahman3d 1874092  0.0  0.0   2236   564 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874120  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874121  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874122  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874588  0.0  0.0  10780  3304 pts/2    R+   16:24   0:00 ps -u
+fork7(1872888)-+-fork7(1872907)-+-fork7(1872909)---fork7(1872913)
+               |                `-fork7(1872912)
+               |-fork7(1872908)---fork7(1872911)
+               `-fork7(1872910)
+2022-11-15 16:25:00
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+rahman3d 1867560  0.0  0.0   9476  5832 pts/2    Ss   16:21   0:00 bash
+rahman3d 1871655  0.6  0.0   6952  3580 pts/2    S+   16:24   0:00 /bin/bash ./tst.sh
+rahman3d 1872273  0.2  0.0   9476  5840 pts/3    Ss   16:24   0:00 bash
+rahman3d 1872888  0.0  0.0   2236   564 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872907  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872908  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872909  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872910  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872911  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872912  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872913  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1873426  0.3  0.0   9476  5860 pts/8    Ss   16:24   0:00 bash
+rahman3d 1874092  0.0  0.0   2236   564 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874120  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874121  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874122  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874971  1.7  0.0   9476  5744 pts/9    Ss+  16:24   0:00 bash
+rahman3d 1875341  0.0  0.0  10780  3328 pts/2    R+   16:25   0:00 ps -u
+bash(1872273)---fork7(1872888)-+-fork7(1872907)-+-fork7(1872909)---fork7(1872913)
+                               |                `-fork7(1872912)
+                               |-fork7(1872908)---fork7(1872911)
+                               `-fork7(1872910)
+2022-11-15 16:25:01
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+rahman3d 1867560  0.0  0.0   9476  5832 pts/2    Ss   16:21   0:00 bash
+rahman3d 1871655  0.6  0.0   6952  3580 pts/2    S+   16:24   0:00 /bin/bash ./tst.sh
+rahman3d 1872273  0.2  0.0   9476  5840 pts/3    Ss   16:24   0:00 bash
+rahman3d 1872888  0.0  0.0   2236   564 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872907  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872908  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872909  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872910  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872911  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872912  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872913  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1873426  0.3  0.0   9476  5860 pts/8    Ss   16:24   0:00 bash
+rahman3d 1874092  0.0  0.0   2236   564 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874120  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874121  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874122  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874971  1.7  0.0   9476  5744 pts/9    Ss+  16:24   0:00 bash
+rahman3d 1875397  0.0  0.0  10780  3344 pts/2    R+   16:25   0:00 ps -u
+fork7(1872888)-+-fork7(1872907)-+-fork7(1872909)---fork7(1872913)
+               |                `-fork7(1872912)
+               |-fork7(1872908)---fork7(1872911)
+               `-fork7(1872910)
+2022-11-15 16:25:12
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+rahman3d 1867560  0.0  0.0   9476  5832 pts/2    Ss   16:21   0:00 bash
+rahman3d 1871655  0.6  0.0   6952  3580 pts/2    S+   16:24   0:00 /bin/bash ./tst.sh
+rahman3d 1872273  0.1  0.0   9476  5840 pts/3    Ss   16:24   0:00 bash
+rahman3d 1872888  0.0  0.0   2236   564 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872907  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872908  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872909  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872910  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872911  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872912  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872913  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1873426  0.2  0.0   9476  5860 pts/8    Ss   16:24   0:00 bash
+rahman3d 1874092  0.0  0.0   2236   564 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874120  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874121  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874122  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874971  0.4  0.0   9476  5744 pts/9    Ss   16:24   0:00 bash
+rahman3d 1875949  0.0  0.0   2236   564 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875969  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875970  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875971  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875972  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875973  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875974  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875975  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875976  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875977  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875978  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875979  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875980  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875981  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875982  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875983  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1876678  0.0  0.0  10780  3316 pts/2    R+   16:25   0:00 ps -u
+bash(1872273)---fork7(1872888)-+-fork7(1872907)-+-fork7(1872909)---fork7(1872913)
+                               |                `-fork7(1872912)
+                               |-fork7(1872908)---fork7(1872911)
+                               `-fork7(1872910)
+2022-11-15 16:25:13
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+rahman3d 1867560  0.0  0.0   9476  5832 pts/2    Ss   16:21   0:00 bash
+rahman3d 1871655  0.6  0.0   6952  3580 pts/2    S+   16:24   0:00 /bin/bash ./tst.sh
+rahman3d 1872273  0.1  0.0   9476  5840 pts/3    Ss   16:24   0:00 bash
+rahman3d 1872888  0.0  0.0   2236   564 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872907  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872908  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872909  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872910  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872911  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872912  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872913  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1873426  0.2  0.0   9476  5860 pts/8    Ss   16:24   0:00 bash
+rahman3d 1874092  0.0  0.0   2236   564 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874120  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874121  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874122  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874971  0.4  0.0   9476  5744 pts/9    Ss   16:24   0:00 bash
+rahman3d 1875949  0.0  0.0   2236   564 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875969  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875970  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875971  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875972  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875973  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875974  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875975  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875976  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875977  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875978  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875979  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875980  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875981  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875982  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875983  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1876726  0.0  0.0   9476  5688 pts/10   Ss+  16:25   0:00 bash
+rahman3d 1876746  0.0  0.0  10780  3376 pts/2    R+   16:25   0:00 ps -u
+fork7(1872888)-+-fork7(1872907)-+-fork7(1872909)---fork7(1872913)
+               |                `-fork7(1872912)
+               |-fork7(1872908)---fork7(1872911)
+               `-fork7(1872910)
+2022-11-15 16:25:16
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+rahman3d 1867560  0.0  0.0   9476  5832 pts/2    Ss   16:21   0:00 bash
+rahman3d 1871655  0.6  0.0   6952  3580 pts/2    S+   16:24   0:00 /bin/bash ./tst.sh
+rahman3d 1872273  0.1  0.0   9476  5840 pts/3    Ss   16:24   0:00 bash
+rahman3d 1872888  0.0  0.0   2236   564 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872907  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872908  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872909  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872910  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872911  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872912  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872913  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1873426  0.1  0.0   9476  5860 pts/8    Ss   16:24   0:00 bash
+rahman3d 1874092  0.0  0.0   2236   564 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874120  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874121  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874122  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874971  0.3  0.0   9476  5744 pts/9    Ss   16:24   0:00 bash
+rahman3d 1875949  0.0  0.0   2236   564 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875969  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875970  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875971  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875972  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875973  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875974  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875975  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875976  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875977  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875978  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875979  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875980  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875981  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875982  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875983  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1876726  2.0  0.0   9476  5792 pts/10   Ss+  16:25   0:00 bash
+rahman3d 1876985  0.0  0.0  10780  3364 pts/2    R+   16:25   0:00 ps -u
+bash(1874971)---fork15(1875949)-+-fork15(1875969)-+-fork15(1875971)-+-fork15(1875974)---fork15(1875980)
+                                |                 |                 `-fork15(1875979)
+                                |                 |-fork15(1875972)---fork15(1875981)
+                                |                 `-fork15(1875976)
+                                |-fork15(1875970)-+-fork15(1875977)---fork15(1875983)
+                                |                 `-fork15(1875982)
+                                |-fork15(1875973)---fork15(1875978)
+                                `-fork15(1875975)
+2022-11-15 16:25:17
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+rahman3d 1867560  0.0  0.0   9476  5832 pts/2    Ss   16:21   0:00 bash
+rahman3d 1871655  0.6  0.0   6952  3580 pts/2    S+   16:24   0:00 /bin/bash ./tst.sh
+rahman3d 1872273  0.1  0.0   9476  5840 pts/3    Ss   16:24   0:00 bash
+rahman3d 1872888  0.0  0.0   2236   564 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872907  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872908  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872909  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872910  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872911  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872912  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872913  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1873426  0.1  0.0   9476  5860 pts/8    Ss   16:24   0:00 bash
+rahman3d 1874092  0.0  0.0   2236   564 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874120  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874121  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874122  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874971  0.3  0.0   9476  5744 pts/9    Ss   16:24   0:00 bash
+rahman3d 1875949  0.0  0.0   2236   564 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875969  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875970  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875971  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875972  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875973  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875974  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875975  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875976  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875977  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875978  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875979  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875980  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875981  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875982  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875983  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1876726  2.0  0.0   9476  5792 pts/10   Ss+  16:25   0:00 bash
+rahman3d 1877038  0.0  0.0  10780  3376 pts/2    R+   16:25   0:00 ps -u
+fork15(1875949)-+-fork15(1875969)-+-fork15(1875971)-+-fork15(1875974)---fork15(1875980)
+                |                 |                 `-fork15(1875979)
+                |                 |-fork15(1875972)---fork15(1875981)
+                |                 `-fork15(1875976)
+                |-fork15(1875970)-+-fork15(1875977)---fork15(1875983)
+                |                 `-fork15(1875982)
+                |-fork15(1875973)---fork15(1875978)
+                `-fork15(1875975)
+2022-11-15 16:25:17
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+rahman3d 1867560  0.0  0.0   9476  5832 pts/2    Ss   16:21   0:00 bash
+rahman3d 1871655  0.6  0.0   6952  3580 pts/2    S+   16:24   0:00 /bin/bash ./tst.sh
+rahman3d 1872273  0.1  0.0   9476  5840 pts/3    Ss   16:24   0:00 bash
+rahman3d 1872888  0.0  0.0   2236   564 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872907  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872908  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872909  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872910  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872911  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872912  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872913  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1873426  0.1  0.0   9476  5860 pts/8    Ss   16:24   0:00 bash
+rahman3d 1874092  0.0  0.0   2236   564 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874120  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874121  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874122  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874971  0.3  0.0   9476  5744 pts/9    Ss   16:24   0:00 bash
+rahman3d 1875949  0.0  0.0   2236   564 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875969  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875970  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875971  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875972  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875973  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875974  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875975  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875976  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875977  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875978  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875979  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875980  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875981  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875982  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875983  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1876726  1.6  0.0   9476  5792 pts/10   Ss+  16:25   0:00 bash
+rahman3d 1877062  0.0  0.0  10780  3380 pts/2    R+   16:25   0:00 ps -u
+fork15(1875969)-+-fork15(1875971)-+-fork15(1875974)---fork15(1875980)
+                |                 `-fork15(1875979)
+                |-fork15(1875972)---fork15(1875981)
+                `-fork15(1875976)
+2022-11-15 16:25:50
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+rahman3d 1867560  0.0  0.0   9476  5832 pts/2    Ss   16:21   0:00 bash
+rahman3d 1871655  0.6  0.0   6952  3584 pts/2    S+   16:24   0:00 /bin/bash ./tst.sh
+rahman3d 1872273  0.0  0.0   9476  5840 pts/3    Ss   16:24   0:00 bash
+rahman3d 1872888  0.0  0.0   2236   564 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872907  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872908  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872909  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872910  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872911  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872912  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872913  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1873426  0.1  0.0   9476  5860 pts/8    Ss   16:24   0:00 bash
+rahman3d 1874092  0.0  0.0   2236   564 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874120  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874121  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874122  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874971  0.1  0.0   9476  5744 pts/9    Ss   16:24   0:00 bash
+rahman3d 1875949  0.0  0.0   2236   564 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875969  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875970  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875971  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875972  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875973  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875974  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875975  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875976  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875977  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875978  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875979  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875980  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875981  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875982  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875983  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1876726  0.2  0.0   9476  5808 pts/10   Ss+  16:25   0:00 bash
+rahman3d 1878968  0.0  0.0  10780  3384 pts/2    R+   16:25   0:00 ps -u
+bash(1874971)---fork15(1875949)-+-fork15(1875969)-+-fork15(1875971)-+-fork15(1875974)---fork15(1875980)
+                                |                 |                 `-fork15(1875979)
+                                |                 |-fork15(1875972)---fork15(1875981)
+                                |                 `-fork15(1875976)
+                                |-fork15(1875970)-+-fork15(1875977)---fork15(1875983)
+                                |                 `-fork15(1875982)
+                                |-fork15(1875973)---fork15(1875978)
+                                `-fork15(1875975)
+2022-11-15 16:25:51
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+rahman3d 1867560  0.0  0.0   9476  5832 pts/2    Ss   16:21   0:00 bash
+rahman3d 1871655  0.6  0.0   6952  3584 pts/2    S+   16:24   0:00 /bin/bash ./tst.sh
+rahman3d 1872273  0.0  0.0   9476  5840 pts/3    Ss   16:24   0:00 bash
+rahman3d 1872888  0.0  0.0   2236   564 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872907  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872908  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872909  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872910  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872911  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872912  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872913  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1873426  0.1  0.0   9476  5860 pts/8    Ss   16:24   0:00 bash
+rahman3d 1874092  0.0  0.0   2236   564 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874120  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874121  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874122  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874971  0.1  0.0   9476  5744 pts/9    Ss   16:24   0:00 bash
+rahman3d 1875949  0.0  0.0   2236   564 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875969  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875970  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875971  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875972  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875973  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875974  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875975  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875976  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875977  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875978  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875979  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875980  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875981  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875982  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875983  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1876726  0.2  0.0   9476  5808 pts/10   Ss+  16:25   0:00 bash
+rahman3d 1879005  0.0  0.0  10780  3380 pts/2    R+   16:25   0:00 ps -u
+fork15(1875949)-+-fork15(1875969)-+-fork15(1875971)-+-fork15(1875974)---fork15(1875980)
+                |                 |                 `-fork15(1875979)
+                |                 |-fork15(1875972)---fork15(1875981)
+                |                 `-fork15(1875976)
+                |-fork15(1875970)-+-fork15(1875977)---fork15(1875983)
+                |                 `-fork15(1875982)
+                |-fork15(1875973)---fork15(1875978)
+                `-fork15(1875975)
+2022-11-15 16:25:51
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+rahman3d 1867560  0.0  0.0   9476  5832 pts/2    Ss   16:21   0:00 bash
+rahman3d 1871655  0.6  0.0   6952  3584 pts/2    S+   16:24   0:00 /bin/bash ./tst.sh
+rahman3d 1872273  0.0  0.0   9476  5840 pts/3    Ss   16:24   0:00 bash
+rahman3d 1872888  0.0  0.0   2236   564 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872907  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872908  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872909  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872910  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872911  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872912  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1872913  0.0  0.0   2236    68 pts/3    S+   16:24   0:00 ./fork7
+rahman3d 1873426  0.1  0.0   9476  5860 pts/8    Ss   16:24   0:00 bash
+rahman3d 1874092  0.0  0.0   2236   564 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874120  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874121  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874122  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874971  0.1  0.0   9476  5744 pts/9    Ss   16:24   0:00 bash
+rahman3d 1875949  0.0  0.0   2236   564 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875969  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875970  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875971  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875972  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875973  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875974  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875975  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875976  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875977  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875978  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875979  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875980  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875981  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875982  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875983  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1876726  0.2  0.0   9476  5808 pts/10   Ss+  16:25   0:00 bash
+rahman3d 1879031  0.0  0.0  10780  3272 pts/2    R+   16:25   0:00 ps -u
+fork15(1875969)-+-fork15(1875971)-+-fork15(1875974)---fork15(1875980)
+                |                 `-fork15(1875979)
+                |-fork15(1875972)---fork15(1875981)
+                `-fork15(1875976)
+2022-11-15 16:26:05
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+rahman3d 1867560  0.0  0.0   9476  5832 pts/2    Ss   16:21   0:00 bash
+rahman3d 1871655  0.6  0.0   6952  3584 pts/2    S+   16:24   0:00 /bin/bash ./tst.sh
+rahman3d 1873426  0.0  0.0   9476  5860 pts/8    Ss   16:24   0:00 bash
+rahman3d 1874092  0.0  0.0   2236   564 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874120  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874121  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874122  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874971  0.1  0.0   9476  5744 pts/9    Ss   16:24   0:00 bash
+rahman3d 1875949  0.0  0.0   2236   564 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875969  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875970  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875971  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875972  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875973  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875974  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875975  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875976  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875977  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875978  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875979  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875980  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875981  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875982  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875983  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1879757  0.0  0.0  10780  3312 pts/2    R+   16:26   0:00 ps -u
+bash(1874971)---fork15(1875949)-+-fork15(1875969)-+-fork15(1875971)-+-fork15(1875974)---fork15(1875980)
+                                |                 |                 `-fork15(1875979)
+                                |                 |-fork15(1875972)---fork15(1875981)
+                                |                 `-fork15(1875976)
+                                |-fork15(1875970)-+-fork15(1875977)---fork15(1875983)
+                                |                 `-fork15(1875982)
+                                |-fork15(1875973)---fork15(1875978)
+                                `-fork15(1875975)
+2022-11-15 16:26:05
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+rahman3d 1867560  0.0  0.0   9476  5832 pts/2    Ss   16:21   0:00 bash
+rahman3d 1871655  0.6  0.0   6952  3584 pts/2    S+   16:24   0:00 /bin/bash ./tst.sh
+rahman3d 1873426  0.0  0.0   9476  5860 pts/8    Ss   16:24   0:00 bash
+rahman3d 1874092  0.0  0.0   2236   564 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874120  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874121  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874122  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874971  0.1  0.0   9476  5744 pts/9    Ss   16:24   0:00 bash
+rahman3d 1875949  0.0  0.0   2236   564 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875969  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875970  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875971  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875972  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875973  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875974  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875975  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875976  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875977  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875978  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875979  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875980  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875981  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875982  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875983  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1879797  0.0  0.0  10780  3380 pts/2    R+   16:26   0:00 ps -u
+fork15(1875949)-+-fork15(1875969)-+-fork15(1875971)-+-fork15(1875974)---fork15(1875980)
+                |                 |                 `-fork15(1875979)
+                |                 |-fork15(1875972)---fork15(1875981)
+                |                 `-fork15(1875976)
+                |-fork15(1875970)-+-fork15(1875977)---fork15(1875983)
+                |                 `-fork15(1875982)
+                |-fork15(1875973)---fork15(1875978)
+                `-fork15(1875975)
+2022-11-15 16:26:06
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+rahman3d 1867560  0.0  0.0   9476  5832 pts/2    Ss   16:21   0:00 bash
+rahman3d 1871655  0.6  0.0   6952  3584 pts/2    S+   16:24   0:00 /bin/bash ./tst.sh
+rahman3d 1873426  0.0  0.0   9476  5860 pts/8    Ss   16:24   0:00 bash
+rahman3d 1874092  0.0  0.0   2236   564 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874120  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874121  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874122  0.0  0.0   2236    68 pts/8    S+   16:24   0:00 ./fork3
+rahman3d 1874971  0.1  0.0   9476  5744 pts/9    Ss   16:24   0:00 bash
+rahman3d 1875949  0.0  0.0   2236   564 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875969  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875970  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875971  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875972  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875973  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875974  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875975  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875976  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875977  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875978  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875979  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875980  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875981  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875982  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1875983  0.0  0.0   2236    68 pts/9    S+   16:25   0:00 ./fork15
+rahman3d 1879814  0.0  0.0  10780  3364 pts/2    R+   16:26   0:00 ps -u
+fork15(1875969)-+-fork15(1875971)-+-fork15(1875974)---fork15(1875980)
+                |                 `-fork15(1875979)
+                |-fork15(1875972)---fork15(1875981)
+                `-fork15(1875976)
